@@ -1,0 +1,75 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Testing & type checking ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+.hypothesis/
+
+# ---- Coverage ----
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+nosetests.xml
+
+# ---- Environment & secrets ----
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+!.streamlit/secrets.toml.example
+
+# ---- Streamlit / generated reports ----
+*.log
+logs/
+*_profile.html
+*_report.html
+reports/
+.ipynb_checkpoints/
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Windows ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- VSCode ----
+.vscode/
+
+# ---- JetBrains ----
+.idea/
+*.iml
+*.iws
+
+# ---- Keep demo data ----
+!data/
+!data/samples/
+!data/samples/*.csv

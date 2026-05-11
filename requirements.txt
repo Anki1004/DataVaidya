@@ -1,0 +1,36 @@
+# DataVaidya — Pinned dependencies for Streamlit Community Cloud (Python 3.12)
+# Last verified: 2026-05-11
+
+# --- Core UI ---
+streamlit==1.57.0
+
+# --- Data engine ---
+pandas==2.3.3
+numpy==1.26.4
+scipy==1.17.1
+pyarrow==17.0.0
+
+# --- Visualization & profiling ---
+plotly==6.7.0
+ydata-profiling==4.18.4
+
+# --- LLM clients ---
+groq==1.3.0
+google-genai==2.0.1
+tenacity==9.1.2
+
+# --- SQL playground ---
+duckdb==1.5.2
+
+# --- Exports ---
+fpdf2==2.8.7
+markdown-it-py==3.0.0
+openpyxl==3.1.5
+
+# --- Quality / privacy ---
+faker==40.15.0
+chardet==5.2.0
+
+# --- Operational ---
+psutil==7.2.2
+streamlit-extras==0.7.9

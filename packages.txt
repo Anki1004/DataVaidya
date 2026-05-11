@@ -1,0 +1,4 @@
+# No apt packages required for DataVaidya.
+# fpdf2 is pure Python (avoids weasyprint's Pango/Cairo system libs),
+# every other dependency ships manylinux wheels. Leave this file present
+# so Streamlit Cloud picks it up if you ever add OS-level tools.
